@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".upperbar.adaptasimitigasi.FragmentAdaptasiMitigasi4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Dampak Perubahan Iklim: Cara Adaptasi dan Mitigasi Menjadi
+Prioritas"
+                android:textColor="@color/fontGray"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="30dp"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Perubahan iklim merupakan perubahan jangka panjang dari distribusi pola cuaca Bumi, biasanya terjadi
+dalam beberapa dekade hingga abad. Biasanya ditandai dengan perubahan suhu rata-rata global, pola
+hujan, cuaca ekstrem, serta perubahan dalam sistem iklim global. Perubahan ini disebabkan oleh
+aktivitas manusia, terutama peningkatan emisi gas rumah kaca seperti karbon dioksida (CO2) dan
+metana (CH4) ke atmosfer. Dampak dari perubahan iklim ini yaitu peningkatan suhu global, pencairan
+es di kutub, kenaikan permukaan laut, kekeringan, banjir, dan ancaman serius terhadap keanekaragaman
+hayati dan kehidupan manusia di seluruh dunia."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Dengan perubahan iklim yang semakin parah, upaya untuk memitigasi emisi gas rumah kaca dan
+mengadaptasi masyarakat dan ekosistem menjadi sangat penting untuk melindungi planet ini dan
+generasi mendatang. Artikel ini akan membahas dampak dari perubahan iklim dan pentingnya
+memprioritaskan upaya adaptasi dan mitigasi sebagai respons terhadap perubahan iklim ini."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="A. Penyebab Perubahan Iklim"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Perubahan iklim disebabkan oleh peningkatan emisi gas rumah kaca ke atmosfer, yang terjadi
+sebagai hasil dari aktivitas manusia. Aktivitas manusia menjadi penyebab utama dari perubahan
+iklim ini. Mulai dari pembakaran bahan bakar fosil seperti batu bara, minyak bumi, dan gas alam
+untuk energi. Kemudian penebangan hutan secara besar-besaran yang dapat mengurangi kemampuan
+alam untuk menyerap CO2 dari udara atau yang dikenal dengan deforestasi."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Selain itu, proses industri seperti produksi semen dan baja juga menghasilkan emisi gas rumah
+kaca, proses pertambangan, penerapan dari pertanian intensif, serta penggunaan kendaraan bermotor dalam aktivitas sehari-hari. Oleh karena itu adaptasi yang membantu kita beradaptasi dengan
+dampak perubahan iklim yang sudah ada atau yang akan datang."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="B. Dampak Perubahan Iklim"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Perubahan iklim memiliki dampak yang signifikan dan dapat merusak berbagai aspek kehidupan
+manusia dan ekosistem di seluruh dunia. Beberapa dampak utama perubahan iklim meliputi:"
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="a."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Peningkatan Suhu Global : menyebabkan terjadinya gelombang panas yang ekstrim, suhu malam yang
+lebih tinggi, dan pencairan es di kutub"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="b."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Kenaikan Permukaan Laut : disebabkan oleh pencairan es di kutub dan gletser, sehingga mengancam
+pulau-pulau kecil dan daerah pesisir pantai"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="c."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Perubahan Pola Hujan : menyebabkan terjadinya kekeringan dan banjir yang ekstrim di berbagai wilayah"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="d."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Krisis Pangan : mengakibatkan ketidakstabilan pasokan pangan dan kenaikan harga pangan, sehingga
+mengakibatkan kerugian yang signifikan"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="e."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Ancaman terhadap Air Bersih : mengancam keberlangsungan hidup dan berdampak terhadap kesehatan
+manusia"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="C. Upaya Mitigasi dan Adaptasi"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Perubahan iklim menjadi tantangan yang serius dan memerlukan tindakan nyata untuk
+mengurangi emisi gas rumah kaca (mitigasi) dan mengadaptasi diri terhadap dampak yang sudah ada
+atau yang akan datang (adaptasi). Berikut adalah beberapa upaya mitigasi dan adaptasi yang penting:"
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:text="1. Upaya Mitigasi"
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Bertujuan untuk mengurangi emisi gas rumah kaca dengan beralih ke energi terbarukan,
+mengurangi konsumsi bahan bakar fosil, dan melestarikan hutan. Berikut beberapa upaya mitigasi
+yang dapat dilakukan, sebagai berikut:"
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="a."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Beralih ke Energi Terbarukan : seperti tenaga surya, angin, dan hidro untuk mengurangi emisi
+karbon dioksida dari pembangkit listrik"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="b."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Efisiensi Energi : Meningkatkan efisiensi energi di rumah, industri, dan penggunaan transportasi
+berkelanjutan juga dapat mengurangi konsumsi energi dan emisi CO2"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="c."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Penghijauan dan Konservasi Hutan : Melindungi hutan dan melakukan reboisasi sangat penting
+karena hutan dapat menyerap karbon alami"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="d."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Pertanian Berkelanjutan : Praktik pertanian yang berkelanjutan seperti manajemen limbah ternak dan
+pengurangan penggunaan pupuk juga dapat membantu mengurangi emisi metana dan nitrogen oksida"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="e."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Pendidikan dan Kesadaran Iklim : Meningkatkan kesadaran masyarakat sangat penting dalam
+mengurangi emisi dan mengadopsi gaya hidup yang berkelanjutan"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:text="2. Upaya Adaptasi"
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Melibatkan langkah-langkah yang dapat diambil untuk mengurangi kerentanannya terhadap
+dampak perubahan iklim yang sudah ada. Berikut langkah-langkah yang harus dilakukan dalam
+upaya adaptasi dampak perubahan iklim, sebagai berikut:"
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="a."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Perencanaan Tata Kota Berbasis Iklim : Kota-kota perlu merancang infrastruktur yang tahan
+terhadap perubahan iklim, termasuk tanggul banjir, taman kota yang dapat menyerap air, dan gedung
+yang dirancang untuk menghadapi suhu yang lebih tinggi"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="b."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Praktik Pertanian Adaptif : Petani perlu mengadaptasi praktik pertanian dengan menggunakan
+varietas tanaman yang lebih tahan terhadap suhu ekstrem dan kekeringan"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="c."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Perlindungan Terhadap Bencana Alam : Perbaikan sistem peringatan dini dan perencanaan darurat
+diperlukan untuk melindungi masyarakat dari bencana alam yang semakin sering terjadi"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="d."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Pengembangan Infrastruktur Tahan Cuaca : Infrastruktur seperti jaringan listrik, air bersih, dan
+transportasi harus dibangun dengan mempertimbangkan perubahan cuaca ekstrem"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Kunci untuk mengatasi perubahan iklim adalah tindakan kolaboratif dari tingkat individu hingga
+tingkat pemerintah dan tingkat global. Mitigasi dan adaptasi harus berjalan bersama-sama untuk
+melindungi planet ini dan memitigasi dampak negatif perubahan iklim."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="D. Peran Individu"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Individu juga dapat berperan dalam mengatasi perubahan iklim dengan mengurangi jejak karbon
+mereka, menghemat energi, mendukung transportasi berkelanjutan, dan mendukung praktik
+pertanian berkelanjutan. Tindakan individu dapat berkontribusi secara signifikan dalam mengurangi
+emisi gas rumah kaca serta membantu memberikan edukasi kepada masyarakat untuk dapat
+beradaptasi dengan dampak perubahan iklim tersebut. Sekecil apapun tindakan individu akan
+memberikan dampak yang signifikan jika dilakukan secara bersama. Sehingga kesadaran,
+pendidikan, dan tindakan konkret menjadi kunci untuk mengurangi dampak perubahan iklim dan
+melindungi planet ini untuk generasi mendatang."
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:text="Kesimpulan"
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Perubahan iklim menjadi tantangan global yang memerlukan kolaborasi dari seluruh dunia.
+Dengan upaya bersama, kita dapat mengurangi dampak negatif perubahan iklim dan melindungi planet
+ini untuk generasi yang akan datang."
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Adaptasi dan mitigasi harus dilaksanakan secara bersama-sama untuk mengatasi tantangan
+perubahan iklim. Semakin dini dan efektif tindakan yang diambil, maka akan semakin besar peluang kita
+untuk mengurangi dampak negatif dari perubahan iklim tersebut."
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

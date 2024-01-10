@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".upperbar.artikel.FragmentArtikel3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textAlignment="center"
+                android:layout_marginHorizontal="30dp"
+                android:text="Pentingnya Mitigasi dan Adaptasi terhadap Perubahan Iklim"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Pada peringatan Hari Meteorologi Dunia yang ke-70 pada 23 Maret 2020 lalu, tema “Climate
+And Water” dijadikan sebagai tema internasional. Prof. Karnawati mengatakan bahwa diangkatnya tema
+tersebut seiring dengan tertujunya mata dunia terhadap isu iklim dan air. Menurut Prof. Karnawati
+perubahan iklim merupakan perubahan jangka panjang dari distribusi pola cuaca secara statistik
+sepanjang periode waktu mulai dasawarsa hingga jutaan tahun. Bisa diartikan sebagai perubahan
+keadaan cuaca rata-rata atau perubahan distribusi peristiwa cuaca rata-rata. Perubahan iklim dapat
+terjadi secara lokal, terbatas hingga regional tertentu, atau dapat terjadi di seluruh wilayah permukaan
+bumi. Perubahan itu ditandai setidaknya oleh empat hal, pertama karena adanya perubahan/kenaikan
+temperatur secara global, kedua kenaikan tinggi muka air laut, ketiga semakin sering terjadinya kondisi
+cuaca ekstrim dan lainnya, dan keempat terjadi perubahan pola curah hujan."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Perubahan iklim saat ini ditandai oleh semakin meningkatnya frekwensi kejadian bencana
+hidrometeorologis, diantaranya cadangan ketersediaan air yang semakin berkurang dan atau bahkan bisa
+menyebabkan kelebihan jumlah debit air pada waktu yang lain, serta kebakaran hutan dan lahan.
+Bencana-bencana hidrometeorologis tersebut berpotensi akan meningkat berdasarkan proyeksi
+perubahan iklim di masa mendatang, dan dapat berpengaruh pada ketahanan sumberdaya air, pangan,
+dan energi. Di Indonesia sendiri, dari data historis curah hujan di Jakarta selama 130 tahun yang
+dikumpulkan oleh BMKG teridentifikasi adanya trend intensitas dan frekwensi hujan ekstrem yang
+semakin tinggi (Siswanto et al, 2016), berkorelasi dengan kejadian banjir di Jabodetabek sejak 30 tahun
+terakhir (Siswanto et al, 2015 dan Siswanto et al, 2017)."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Intensitas hujan ekstrim harian mencapai rekor baru 377 mm per hari di tahun 2020 ini tercatat di
+Stasiun Halim Perdana Kusuma (Siswanto et al, 2020). Perubahan iklim juga berpengaruh terhadap
+peningkatan suhu udara. Suhu udara di Indonesia pada 30 tahun terakhir naik sekitar 0,1 derajat celsius.
+Kenaikan tersebut terlihat kecil, namun dunia telah membatasi bahwa sampai tahun 2030 perubahan
+suhu tidak boleh lebih dari 1,5 derajat celcius. Sementara itu hingga tahun 2020 ini kenaikan suhu di
+Indonesia sudah hampir mencapai 1,6 derajat Celsius sejak 1866 (Siswanto et al, 2016). Menghangatnya
+iklim di Indonesia juga akan disertai dengan musim kemarau yang semakin kering hingga 20 persen di
+beberapa wilayah Indonesia seperti di Sumatera Selatan, Jawa, Madura, Bali, Nusa Tenggara Barat dan
+Nusa Tenggara Timur. Selain itu masyarakat harus menyadari Indonesia berlokasi di kawasan cincin api
+sehingga risiko bencana seperti gempa bumi, tsunami maupun gunung berapi, tanah longsor hingga
+banjir tidak terhindarkan."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Berbagai tantangan tersebut membutuhkan langkah antisipasi lebih dini agar Indonesia dan dunia
+mampu beradaptasi dan melakukan mitigasi secara tepat. Masyarakat bisa ikut berperan dalam mitigasi
+dengan melakukan hal-hal kecil namun dapat mengurangi emisi gas rumah kaca seperti membatasi
+penggunaan kendaraan bermotor, mulai beralih ke sarana transportasi umum, menghemat penggunaan
+listrik dan air, mengurangi penggunaan sampah plastik, dan menanam pohon di lingkungan sekitar."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Lebih lanjut, perubahan iklim ini tidak memandang batas territorial dan setiap negara pasti
+merasakannya. Terobosan dan lompatan inovasi berbasis kepada big data analytics dan artificial
+intelligent merupakan keniscayaan untuk peningkatan mitigasi dan adaptasi terhadap perubahan iklim
+tersebut. Penelitian-penelitian yang dilakukan oleh para ahli perlu berfokus pada usaha mengurangi
+emisi karbondioksida untuk menahan laju kenaikan temperatur global. Namun diperlukan juga
+pendekatan Inovasi Sosial atau Rekayasa Sosial sebagai upaya untuk beradaptasi terhadap perubahan
+iklim ini."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Misalnya, para petani perlu dibekali pengetahuan untuk menahami dan memanfaatkan informasi/
+prediksi iklim dan cuaca, guna menyesuaikan waktu, pola dan jenis tanaman yang harus ditanam, agar
+menghasilkan produk komuditas pangan yang optimal meskipun dilanda berbagai ganguan cuaca.
+Dengan cara beradaptasi ini, petani dapat juga memutuskan waktu tanam dan waktu panen yang tepat,
+untuk menghindari gangguan cuaca/ iklim ekstrem."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Hingga saat ini Pusat Kajian Sumberdaya Bumi Non-Konvensional (UGRG) UGM telah
+berusaha berperan aktif dalam riset terkait dengan perubahan iklim, salah satunya melalui studi
+Konsentrasi CO2 pada Atmosfer Purba dan Laju Akumulasi Karbon Berdasarkan Suksesi Gambut
+Tropis untuk Rekonstruksi Iklim Purba dan Kaitannya dengan Mitigasi Bencana Akibat Pemanasan
+Global. Kedepannya UGRG diharapkan dapat mengembangkan riset-riset terkait yang tepat guna demi
+keselamatan dan kesejahteraan masyarakat Indonesia dan dunia."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

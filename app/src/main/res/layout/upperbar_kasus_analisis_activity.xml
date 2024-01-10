@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".upperbar.kasusanalisis.KasusAnalisisActivity">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_top">
+            <RelativeLayout
+                android:id="@+id/btnBack"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/rect"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_back"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_marginTop="15dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_kasus"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginLeft="10dp"
+                android:text="KASUS ANALISIS"
+                android:textColor="#0F0F0F"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/frameLayout"
+                app:layout_constraintStart_toStartOf="parent"/>
+        </LinearLayout>
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayoutKasusAnalisis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@color/black"
+            app:tabTextColor="@color/black"
+            app:tabMode="scrollable"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_blank_grey_radius_rect"/>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPagerKasusAnalisis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <!--  <TextView
+              android:id="@+id/textView"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="20dp"
+              android:layout_marginTop="15dp"
+              android:fontFamily="@font/montserrat_bold"
+              android:text="KASUS ANALISIS 1"
+              android:textColor="#0F0F0F"
+              android:textSize="18sp" />-->
+
+
+    </LinearLayout>
+</layout>

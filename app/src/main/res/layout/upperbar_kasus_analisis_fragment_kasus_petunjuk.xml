@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".upperbar.kasusanalisis.FragmentKasusPetunjuk">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="1)"
+                android:textColor="#0F0F0F"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Anda akan dibagi menjadi 6 kelompok. Setiap kelompok akan dibagi sesusia kesepakatan
+kelompok menjadi 6 tipe topi yang berbeda"
+                android:textColor="#0F0F0F"
+                android:textSize="12sp"
+                android:justificationMode="inter_word" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="3dp"
+            android:background="#8FAC86"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="2)"
+                android:textColor="#0F0F0F"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="1 Topi dapat terdiri lebih dari 1 mahasiswa jika dalam kelompok lebih dari 6 mahasiswa"
+                android:textColor="#0F0F0F"
+                android:textSize="12sp"
+                android:justificationMode="inter_word" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="3dp"
+            android:background="#8FAC86"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="3)"
+                android:textColor="#0F0F0F"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Silahkan mengerjakan 6 soal analisis tersebut berdasarkan persepktif topi yang Anda
+gunakan"
+                android:textColor="#0F0F0F"
+                android:textSize="12sp"
+                android:justificationMode="inter_word" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="3dp"
+            android:background="#8FAC86"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="4)"
+                android:textColor="#0F0F0F"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Keenam soal tersebut harus diselesaikan dan setiap anggota kelompok wajib
+mendapatkan topi yang berbeda"
+                android:textColor="#0F0F0F"
+                android:textSize="12sp"
+                android:justificationMode="inter_word" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="3dp"
+            android:background="#8FAC86"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="5)"
+                android:textColor="#0F0F0F"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Silahkan buat hasil jawaban Anda dengan menggunakan berbagai produk sesuai minat,
+kemampuan dan kesanggupan Anda (dapat membuat dengan PPT, canva, sterofoam,
+video, audio, dan sebagainya)"
+                android:textColor="#0F0F0F"
+                android:textSize="12sp"
+                android:justificationMode="inter_word" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="3dp"
+            android:background="#8FAC86"/>
+
+    </LinearLayout>
+
+
+</layout>

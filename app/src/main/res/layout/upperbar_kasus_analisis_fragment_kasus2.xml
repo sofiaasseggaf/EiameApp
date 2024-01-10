@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".upperbar.kasusanalisis.FragmentKasus2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Cermati artikel terkini terkait permasalahan lingkungan berikut ini!"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp"
+                android:justificationMode="inter_word" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="30dp"
+                    android:textColor="@color/fontGray"
+                    android:text="Ribuan Tewas Akibat Polusi, Kualitas Udara Bikin Khawatir"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Jakarta, CNBC Indonesia - Kualitas udara yang memburuk akhir-akhir ini masih menjadi buah
+bibir yang hangat diperbincangkan, pasalnya kerugian dari polusi sudah merembet ke penyakit saluran
+pernapasan bahkan menyebabkan kematian. Berdasarkan data IQAir pada pagi hari ini Sabtu (26/8/2023)
+pukul 06.00 WIB kualitas udara di Jakarta berada di status tidak sehat bagi kelompok sensitif dengan
+indeks kualitas udara AQI US 124 dan polutan utama PM2.5. Konsentrasi PM2.5 di Jakarta saat ini 9
+kali nilai panduan kualitas udara tahunan WHO."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Angka ini sudah turun dibandingkan AQI US hari sebelumnya yang berada di angka 155. Cuaca
+Jakarta pagi ini masih berkabut dengan suhu 27 derajat celcius, kelembaban84%, angin 5,5 hm/h dan
+tekanan 1.011 mbar. Dalam rangking kota AQI langsung dari beberapa kota di Indonesia per hari ini
+pukul 06.00 WIB Jakarta sudah tidak masuk dalam 10 rangking kualitas udara yang tidak sehat. Akan
+tetapi, kota Depok pagi ini menjadi kota berpolusi tinggi dengan AQI US 198."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Polusi udara di Jakarta makin membaik hari demi hari, salah satu faktornya adalah karena
+tekanan angin. Ketika kecepatan angin naik 300% maka polutan udara yang buruk menurun. Selain itu,
+kebijakan yang telah dilakukan Pemerintahan DKI Jakarta juga mendorong Jakarta tidak masuk dalam
+10 rangking kota berpolusi paling buruk, meskipun status DKI Jakarta saat ini masih masuk dalam
+kategori tidak sehat bagi kelompok sensitif."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Sebelumnya, penerapan kendaraan ganjil genap di Jakarta juga sebagai pengurangan tingkat
+polusi udara di Jakarta. Kemudian, uji coba WFH dilakukan dengan persentase kehadiran 50% di
+lingkungan Pemprov DKI Jakarta, berlaku pada 21 Agustus- 21 Oktober bagi ASN yang melakukan
+fungsi staf atau pendukung. Tak hanya itu, untuk mendukung pengutangan pemerintah telah berupaya
+untuk menerapkan Teknologi Modifikasi Cuaca (TMC) di Jabodetabek (Jakarta Bogor Depok Tangerang
+Bekasi)."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textColor="@color/fontGray"
+                    android:text="Polusi Bikin Masyarakat Rentan Terserang ISPA"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Walaupun kualitas udara sudah makin membaik hari demi hari tetapi masih sering dalam status
+tidak sehat bagi kelompok sensitif, ditambah dengan efek Covid-19 beberapa tahun lalu dampak dari
+polusi udara ini jadi bukan main bagi kesehatan. Polusi udara cenderung akan menyerang saluran
+pernapasan manusia, dengan begitu penyakit yang rentan terjadi mulai dari jangka pendek seperti batuk-batuk, flu, pusing, hingga jangka panjangnya berisiko kena Infeksi Saluran Pernapasan Akut (ISPA)."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Menurut data Dinas Kesehatan (Dinkes) DKI Jakarta, sebagaimana dilansir dari Detikcom,
+selama periode Januari-Juni 2023, kasus ISPA terbanyak dilaporkan pada Maret 2023 sebanyak 119.734
+kasus. Setelah sempat mengalami penurunan, tetapi per Juni lalu kembali meningkat sebanyak 102.475
+kasus. Berikut rincian kasus ISPA DKI Jakarta periode Januari-Juni 2023:"
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="- Januari: 102.609\n- Februari: 104.638\n- Maret: 119.734\n- April: 109.705\n- Mei: 99.130\n- Juni: 102.475"
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Menteri Kesehatan (Menkes) Budi Gunadi Sadikin juga mengungkapkan pasien ISPA sebelum Covid-19, mencapai 50.000 pasien. Sekarang, jumlahnya mau naik hingga 200.000 pasien. Nah, itu ada
+        akibat dari polusi udara ini, kata Menkes, saat ditemui selepas ASEAN Finance - Health Minister Meeting (AFHMM) 2023, Kamis (24/8/2023)."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="https://www.cnbcindonesia.com/research/20230826181347-128-466374/ribuan-tewas-akibat-polusi-kualitas-udara-bikin-khawatir"
+                android:textColor="#013D12"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/fontGray"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Berdasarkan artikel:"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="1."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Menurut kelompok Anda, apa penyebab utama yang logis berkaitan dengan permasalahan pada artikel tersebut?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="2."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Saran apa yang dapat diberikan kepada para pemilik industri penyamakan kulit agar tidak mencemari lingkungan?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="3."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Rancangan strategi apa yang perlu digagas serta diimplementasi oleh Pemprov DKI berkaitan dengan penguatan kesadaran masyarakat DKI Jakarta berkaitan dengan permasalahan tersebut?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="4."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Buatlah contoh adaptasi dan mitigasi apa yang perlu disiapkan pemerintah Pemprov DKI Jakarta berkaitan dengan rencana adaptasi dan mitigasi jangka pendek (1 tahun ke depan), menengah (4 tahun ke depan-2027), dan jangka Panjang (8 tahun ke depan - 2031) !"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="5."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Bagaimana cara Anda melakukan kolaborasi dan komunikasi dengan semua stakeholder berkaitan dengan permasalahan tersebut?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

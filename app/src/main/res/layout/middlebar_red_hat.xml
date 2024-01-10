@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".middlebar.RedHat">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_top" >
+            <RelativeLayout
+                android:id="@+id/btnBack"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/rect"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_back"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_hat_red"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginLeft="10dp"
+                android:text="EMOTION"
+                android:textColor="#DE4D2E"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/frameLayout"
+                app:layout_constraintStart_toStartOf="parent"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="          Dengan menggunakan topi merah, Anda akan berperan sebagai seseorang yang melihat masalah melalui
+reaksi berantai, emosi, dan intuisi. Cobalah berpikir bahwa semua orang akan bereaksi dengan
+emosional mereka terhadap sebuah perencanaan baru."
+            android:textColor="@color/fontGray"
+            android:justificationMode="inter_word"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="          Dengan topi merah ini, Anda bisa mencoba untuk mengerti mengapa orang lain bereaksi seperti itu,
+mungkin karena mereka tidak memahami alasan Anda. Pemakainya melihat masalah melalui kacamata
+emosional, kamu perlu berpikir bagaimana orang akan bereaksi secara intuisi ketika dihadapi persoalan
+tersebut. Dengan begitu, pemakai paham bagaimana berada di posisi mereka dan mengapa mereka
+bereaksi demikian."
+            android:textColor="@color/fontGray"
+            android:justificationMode="inter_word"
+            android:textSize="12sp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Kata Kunci Topi Merah:"
+            android:textColor="#DE4D2E"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Perasaan dan Emosi"
+            android:textColor="@color/fontGray"
+            android:justificationMode="inter_word"
+            android:textStyle="italic"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:layout_marginLeft="10sp"
+                android:background="@drawable/circle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Yang dirasakan dapat disampaikan"
+                android:textColor="@color/fontGray"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10sp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:layout_marginLeft="10sp"
+                android:background="@drawable/circle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Memiliki intuisi yang menonjol"
+                android:textColor="@color/fontGray"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10sp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:layout_marginLeft="10sp"
+                android:background="@drawable/circle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Memiliki firasat yang besar terkait suatu kebijakan atau menggunakan firasat dalam pengambilan keputusan"
+                android:textColor="@color/fontGray"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10sp"
+                android:textSize="12sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:layout_marginLeft="10sp"
+                android:background="@drawable/circle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Terkadang subjektif karena melihat dari berbagai sudut perasaan"
+                android:textColor="@color/fontGray"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10sp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

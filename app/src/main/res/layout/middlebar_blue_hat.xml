@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".middlebar.BlueHat">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_top" >
+            <RelativeLayout
+                android:id="@+id/btnBack"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/rect"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_back"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_hat_blue"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginLeft="10dp"
+                android:text="PLANNING"
+                android:textColor="#5162FA"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/frameLayout"
+                app:layout_constraintStart_toStartOf="parent"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="          Jika Anda menggunakan topi biru maka Anda memiliki pemikiran terstruktur, gambaran menyeluruh,
+ekspektasi tinggi. Biru adalah warna langit, dan langit berada di posisi yang tinggi. Berpikir
+menggunakan topi biru berarti melihat suatu permasalahan dengan gambaran besar dan selalu
+mengambil keputusan dengan memandang jauh ke depan. Topi biru merujuk pada kontrol proses,
+pemakainya adalah pemimpin diskusi. Topi biru diharapkan dapat mengatur jalannya diskusi. Misal,
+ketika ide mengering, mereka akan mengerahkan Topi Hijau untuk membantu memecahkan masalah.
+Hal tersebut yang akan memikirkan adalah topi biru."
+            android:textColor="@color/fontGray"
+            android:justificationMode="inter_word"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Kata Kunci Topi Biru:"
+            android:textColor="#5162FA"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Berpikir tentang Berpikir"
+            android:textColor="@color/fontGray"
+            android:justificationMode="inter_word"
+            android:textStyle="italic"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:layout_marginLeft="10sp"
+                android:background="@drawable/circle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Memiliki kemampuan untuk merangkum segala kegiatan yang ada"
+                android:textColor="@color/fontGray"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10sp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:layout_marginLeft="10sp"
+                android:background="@drawable/circle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Memiliki pribadi yang senang berupaya mewujudukan tindak lanjut ke depan"
+                android:textColor="@color/fontGray"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10sp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

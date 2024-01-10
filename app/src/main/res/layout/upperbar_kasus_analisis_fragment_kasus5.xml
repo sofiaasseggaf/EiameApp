@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".upperbar.kasusanalisis.FragmentKasus5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Cermati infografis berkaitan dengan perubahan iklim di Indonesia berikut ini!"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp"
+                android:justificationMode="inter_word" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="450dp"
+                    android:background="@drawable/img_analisis5"
+                    android:layout_marginVertical="5dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="https://indonesiabaik.id/infografis/mengenal-perubahan-iklim-faktor-dan-dampaknya"
+                android:textColor="#013D12"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Berdasarkan narasi:"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="1."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Apa faktor-faktor yang mempengaruhi perubahan iklim berdasarkan infografis tersebut?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="2."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Apa faktor-faktor lain yang dapat mempengaruhi perubahan iklim selain faktor-faktor
+yang disampaikan pada infografis tersebut?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="3."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Bagaimana langkah yang dapat dilakukan pemerintah untuk mengedukasi masyarakat
+berkaitan dengan adaptasi dalam mengatasi dampak perubahan iklim yang tersirat pada infografis tersebut?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="4."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Bagaimana langkah yang dapat dilakukan pemerintah untuk mengedukasi masyarakat
+berkaitan dengan mitigasi dalam mengatasi dampak perubahan iklim yang tersirat pada infografis tersebut?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="5."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Jelaskan 1 program pemerintah yang Anda sepakati bersama dengan kelompok Anda,
+berkaitan dengan adaptasi dan mitigasi yang telah diimplementasi di Indonesia!"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="6."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Cobalah kelompok Anda analisis kebijakan tersebut! Apakah sudah sesuai tujuan yang
+hendak dicapai atau masih banyak perlu perbaikan dan penguatan! Gunakan pisau analisis yang kuat berdasarkan 6 cara berpikir masin-masing dari Anda!"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".upperbar.kasusanalisis.FragmentKasus1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Cermati narasi berkaitan dengan aktivitas yang dilakukan manusia yang berdampak pada lingkungan berikut ini!"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp"
+                android:justificationMode="inter_word"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Industri penyamakan kulit dapat mengakibatkan pencemaran karena dalam proses pencucian memerlukan air sebagai mendiumnya dalam jumlah besar. Di Tambun, Kabupaten Bekasi, tingkat pencemaran sungai Kali Jambe akibat pembuangan limbah industry penyamakan kulit dinilai sudah tinggi. Dari sekitar 300 unit industri penayamakan kulit sekitar 250 unit diantaranya aktif bereproduksi. Telah lama masyarakat mengeluh akibat tercemarnya sungai Kali Jambe tersebut."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="https://megapolitan.kompas.com/read/2019/10/29/17593931/kali-jambe-di-tambun-bekasi-kembali-jadi-lautan-sampah?page=all"
+                android:textColor="#013D12"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Berdasarkan narasi:"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="1."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Apa akibat yang dapat ditimbulkan dari adanya limbah penyamakan kulit di dalam perarian tersebut?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="2."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Saran apa yang dapat diberikan kepada para pemilik industri penyamakan kulit agar tidak mencemari lingkungan?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="3."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Buatlah contoh adaptasi dan mitigasi apa yang perlu disiapkan pemerintah kabupaten Bekasi untuk mengatasi permasalahan tersebut!"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="4."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Bagaimana cara Anda melakukan kolaborasi dan komunikasi dengan semua stakeholder berkaitan dengan permasalahan tersebut"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

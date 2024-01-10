@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".middlebar.YellowHat">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_top" >
+            <RelativeLayout
+                android:id="@+id/btnBack"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/rect"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_back"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_hat_yellow"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginLeft="10dp"
+                android:text="BENEFIT"
+                android:textColor="#E5DE28"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/frameLayout"
+                app:layout_constraintStart_toStartOf="parent"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="          Sesuai dengan warnanya yang cerah, menggunakan topi kuning membantu Anda untuk berpikir positif
+dan optimisme tinggi. Inilah sudut pandang dari dalam diri Anda untuk melihat keuntungan dari semua
+keputusan beserta valuenya. Sesuai dengan prinsip optimisme, pemakai topi kuning perlu menanamkan
+mindset bergerak maju meski keadaan sangat sulit."
+            android:textColor="@color/fontGray"
+            android:justificationMode="inter_word"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Kata Kunci Topi Kuning:"
+            android:textColor="#E5DE28"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Fokus Terhadap Makna dan Manfaat Ke Depan"
+            android:textColor="@color/fontGray"
+            android:justificationMode="inter_word"
+            android:textStyle="italic"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:layout_marginLeft="10sp"
+                android:background="@drawable/circle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Memiliki pribadi yang pembelajar dan pokus pada makna dan manfaat yang di dapat"
+                android:textColor="@color/fontGray"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10sp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:layout_marginLeft="10sp"
+                android:background="@drawable/circle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Memiliki pribadi yang tidak pantang menyerah karena berprinsip semua keputusan pasti ada
+makna untuk memperbaikinya"
+                android:textColor="@color/fontGray"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10sp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

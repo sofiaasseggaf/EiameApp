@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".upperbar.kasusanalisis.FragmentKasus4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Cermati narasi permasalahan lingkungan berikut ini!"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center"
+                    android:textColor="@color/fontGray"
+                    android:text="Tanah Longsor Dominasi Bencana Alam di Probolinggo Sepanjang 2023"
+                    android:textSize="12sp"
+                    android:layout_marginHorizontal="30dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Liputan6.com, Probolinggo - Badan Penanggulangan Bencana Daerah
+(BPBD) Probolinggo mencatat bencana alam yang terjadi di wilayah setempat selama tahun 2023 ini
+mencapai 48 kali bencana alam. Dari jumlah tersebut bencana tanah longsor mendominasi."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          “Mulai Januari hingga Maret 2023 ini tercatat ada 48 kejadian bencana alam. Meliputi 25
+bencana tanah longsor, 12 bencana cuaca esktrem dan 10 bencana banjir dan 1 kejadian remaja
+tenggelam di sungai,” ujar petugas teknis Pusdalops BPBD Probolinggo Silvia Verdiana, Selasa
+(4/4/2023). Kata dia, tanah longsor merupakan kejadian yang paling banyak yaitu mencapai 25 kejadian.
+Dan kejadiannya tersebar di Kecamatan Krucil, Gading, Kotaanyar, Pakuniran, Tiris, Lumbang, Maron,
+Paiton, Wonomerto dan Kecamatan Kraksan. “Untuk penyebabnya diduga karena tingginya intensitas
+curah hujan dan kondisi struktur tanah yang jenuh dan terjal menjadi pemicu terjadinya tanah longsor,”
+paparnya."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Selain itu, pada bulan Maret 2023 juga tercatat telah terjadi 12 kejadian cuaca ekstrem yang
+tersebar di Kecamatan Tongas, Sumberasih, Dringu, Kraksan, Kotaanyar, Pakuniran, Krejangan,
+Lumbang dan Kecamatan Sukapura. “Kejadian cuaca ekstrem dipengaruhi adanya kondisi dinamika
+atmosfer dan kondisi permukiman yang strukturnya mulai lemah,” tuturnya. Menurutnya berncana banjir
+terjadi 10 kali yang tersebar di Kecamatan Tongas, Sumberasih, Wonomerto, Dringu, Pakuniran dan
+Leces yang disebabkan tingginya intensitas hujan di wilayah hulu, namun juga dipengaruhi oleh kondisi
+infrastuktur, saluran drainase serta tingginya sedimentasi."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          “Bencana alam tersebut menyebabkan satu korban meninggal dunia akibat tenggelam di sungai
+dan satu orang mengalami luka ringan akibat tertima material tanah longsor,” katanya. Dari puluhan
+kejadian bencana alam tersebut tercatat sebanyak 57.843 jiwa menderita akibat terdampak bencana alam
+sejak Januari hingga Maret 2023. Sedangkan dampak kerusakanya tercatat sebanyak 31 rumah warga
+rusak dengan rincian 21 rumah rusak ringan, empat rumah rusak sedang dan enam rumah rusak berat.
+Selanjutnya tercatat sebanyak 2.533 rumah warga tergenang akibat banjir dan terdapat 24
+infrastuktur yang mengalami keruskan yang terdiri dari keruskan jalan, jembatan dan jaringan
+listrik."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="https://www.liputan6.com/surabaya/read/5251993/tanah-longsor-dominasi-bencana-alam-di-probolinggo-sepanjang-2023"
+                android:textColor="#013D12"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Berdasarkan artikel:"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="1."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Apa penyebab utama yang menyebabkan permasalahan tersebut?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="2."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Bagaimana adaptasi dan mitigasi yang dapat dilakukan warga sekitar lokasi bencana
+untuk mengatasi permasalahan tersebut?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="3."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Langkah apa yang konkret yang dapat dilakukan pemerintah baik pusat maupun daerah
+untuk mengatasi permasalahan tersebut?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="4."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Buatlah prediksi tantangan atau rintangan ke depan jika melakukan Tindakan/Langkah jawaban pon 3!"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

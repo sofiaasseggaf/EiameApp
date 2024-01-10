@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".upperbar.adaptasimitigasi.FragmentAdaptasiMitigasi2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="DEFINISI ADAPTASI"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Adaptasi merupakan penyesuaian dalam sistem alam atau sistem buatan manusia untuk menjawab
+rangsangan atau pengaruh iklim, baik yang bersifat aktual ataupun perkiraan, dengan tujuan mengontrol bahaya
+yang ditimbulkan atau memberikan kesempatan yang menguntungkan. Adaptasi dapat juga didefinisikan
+sebagai usaha alam atau manusia menyesuaikan diri untuk mengurangi dampak perubahan iklim yang sudah
+atau mungkin terjadi. Komitmen adaptasi perubahan iklim didasarkan pada posisi Indonesia sebagai bagian dari
+masyarakat dunia untuk mengurangi dampak negatif perubahan iklim terhadap berbagai sektor ekonomi yang
+dapat berakibat pada penurunan produk domestik bruto (PDB) secara global. Pelaksanaan adaptasi perubahan
+iklim (API) relatif kompleks dengan pertimbangan posisi geografis Indonesia di wilayah tropis, variasi topografi,
+luasnya wilayah daratan dan lautan. Pendekatan komprehensif dan menyeluruh sangat diperlukan dalam
+merencanakan aksi adaptasi dalam rangka pemenuhan kebutuhan dasar masyarakat yaitu pangan, air, energi,
+dan kesehatan. Langkah adaptasi perubahan iklim yang direncanakan perlu memperhatikan konektivitas antara
+program aksi untuk pemenuhan kebutuhan dasar tersebut, sehingga tidak terjadi mal-adaptasi yaitu aksi yang
+berdampak negatif bagi pemenuhan salah satu kebutuhan dasar. Misalnya, pengairan untuk pemenuhan
+kebutuhan pangan dapat memicu peningkatan kebutuhan energi berbahan dasar fosil, sehingga perlu dipikirkan
+energi alternatif. Dengan demikian aksi adaptasi perlu memiliki prinsip dasar efisiensi dan efektivitas
+penggunaan sumberdaya layanan jasa ekosistem secara berkelanjutan."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Upaya adaptasi juga harus terintegrasi dan sinergis dengan upaya mitigasi. Kegiatan mitigasi akan lebih
+berkelanjutan jika digabungkan dan terintegrasi dengan langkah-langkah adaptasi. Mengintegrasikan langkah-langkah mitigasi dan adaptasi juga dapat meningkatkan penerimaan dan minat masyarakat setempat terhadap
+kegiatan berbasis pengarusutamaan perubahan iklim. Penekanan adapatasi adalah pada kebutuhan mendesak
+masyarakat setempat (sementara mitigasi memiliki manfaat global yang lebih berjangka panjang)."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="JENIS-JENIS ADAPTASI"
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Secara umum, berikut adalah strategi Roadmap NDC Adaptasi Perubahan Iklim."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="1."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Penguatan instrumen kebijakan adaptasi perubahan iklim dan pengurangan risiko bencana"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="2."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Pengintegrasian ke dalam perencanaan pembangunan dan mekanisme keuangan"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="3."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Peningkatan literasi iklim tentang kerentanan dan risiko"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="4."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Pendekatan berbasis lanskap untuk pemahaman komprehensif"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="5."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Penguatan kapasitas lokal pada praktik terbaik"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="6."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Peningkatan manajemen pengetahuan"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="7."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Peningkatan partisipasi pemangku kepentingan"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="8."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Penerapan teknologi adaptif"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Sasaran Strategis Rencana Aksi Nasional Adaptasi Perubahan Iklim (RAN-API) diarahkan untuk: (i)
+membangun ketahanan ekonomi, (ii) membangun tatanan kehidupan (sosial) yang tangguh terhadap dampak
+perubahan iklim (ketahanan sistem kehidupan), (iii) menjaga keberlanjutan layanan jasa lingkungan ekosistem
+(ketahanan ekosistem) dan (iv) penguatan ketahanan wilayah khusus di perkotaan, pesisir dan pulau-pulau kecil.
+upaya adaptasi terhadap dampak perubahan iklim pada Proklim dapat dilaksanakan melalui kegiatan antara lain:
+(a) Pengendalian kekeringan, banjir dan longsor; (b) Peningkatan ketahanan pangan; (c) Penanganan atau
+antisipasi kenaikan muka laut, rob, intrusi air laut, abrasi, ablasi atau erosi akibat angin, gelombang tinggi; (d)
+Pengendalian penyakit terkait iklim; dan (e) kegiatankegiatan lain yang terkait dengan upaya peningkatan
+penyesuaian diri terhadap perubahan iklim. Berikut gambar jenis-jenis adaptasi lingkungan."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:background="@drawable/img_adaptasi_m2_1"
+                    android:layout_marginVertical="5dp"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="ILUSTRASI KEGIATAN ADAPTASI"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:background="@drawable/img_adaptasi_m2_2"
+                    android:layout_marginVertical="5dp"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Pengembangan kegiatan adaptasi dan mitigasi perubahan iklim pada tingkat tapak dapat dimulai dari kegiatan
+sederhana yang dilakukan secara individual maupun kelompok. Kegiatan adaptasi dan mitigasi perubahan iklim
+dapat dikembangkan dari kegiatan baik yang telah dilaksanakan oleh masyarakat dan pemeliharaan infrastruktur
+yang sudah dibangun di lokasi setempat yang dapat berkontribusi terhadap upaya pengendalian perubahan
+iklim. contoh kegiatan adaptasi dan mitigasi yang dilakukan Proklim antara lain pembuatan tanpungan air,
+pembangunan konstruksi antisipasi abrasi air laut, penanaman mangrove, membuat lubang resapan biopori,
+mikro-hydro, pemanfaatan energi surya, melakukan reforestrasi, pemanfaatan biogas dan sampah, pembuatan
+taman apotek hidup, serta pembuatan sistem pengelolaan air (subak) dan pertanian organik."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="DEFINISI MITIGASI"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Mitigasi Perubahan Iklim adalah usaha pengendalian untuk mengurangi risiko akibat perubahan iklim
+melalui kegiatan yang dapat menurunkan emisi atau meningkatkan penyerapan GRK dan
+penyimpanan/penguatan cadangan karbon dari berbagai sumber emisi. Perubahan iklim ekstrem adalah
+masalah yang dapat terjadi di seluruh negara tanpa memandang batas teritorial sehingga masyarakat dituntut
+untuk berperan aktif dalam mitigasi dan adaptasi perubahan iklim yang dapat berpotensi meningkatkan
+frekuensi kejadian bencana. Bencana alam yang terjadi di Indonesia sendiri tak jarang menimbulkan kerugian
+material dan bahkan kehilangan nyawa, sehingga perlu kesadaran dari masyarakat peduli akan lingkungan. Ada
+beberapa langkah yang bisa dilakukan untuk mitigasi perubahan iklim antara lain:"
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="1."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Menghemat penggunaan air dan listrik"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="2."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Lakukan 3R (Reduce, Reuse, Recycle)"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="3."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Membatasi penggunaan kertas maupun pupuk organik"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="4."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Mengurangi penggunaan gas aerosol"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="5."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Melakukan penghijauan atau reboisasi"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="6."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Menggunakan peralatan elektronik hemat energi"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="7."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Menggunakan kendaraan umum, berjalan kaki atau naik sepeda"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="8."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Konsumsi barang berdasarkan kebutuhan, bukan kemauan"
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Semoga dengan menjaga lingkungan mulai dari sekitar kita terlebih dahulu menjauhkan kita dari
+potensi bahaya bencana."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

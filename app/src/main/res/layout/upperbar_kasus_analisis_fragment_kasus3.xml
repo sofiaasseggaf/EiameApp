@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".upperbar.kasusanalisis.FragmentKasus3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Cermati artikel berkaitan dengan aktivitas yang dilakukan manusia yang berdampak pada lingkungan berikut ini!"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp"
+                android:justificationMode="inter_word" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center"
+                    android:textColor="@color/fontGray"
+                    android:text="Ibu Kota Nusantara: Merusak Hutan atau Memperbaiki Lingkungan?"
+                    android:textSize="12sp"
+                    android:layout_marginHorizontal="30dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Ibu Kota Nusantara (IKN) dibangun di atas lahan yang berstatus hutan. Pakar menilai
+pembangunan ini sama saja dengan merusak kawasan meski pemerintah berkilah pembangunan
+tersebut justru membenahi hutan sejalan dengan visi 'forest city.' Dosen Fakultas Kehutanan,
+Universitas Gadjah Mada (UGM), Dwiko Budi Permadi, Ph.D, membuat ilustrasi sederhana terkait
+IKN dan klaim pelestarian hutan. Dalam penjelasan pemerintah, termasuk dokumen Bappenas,
+dipaparkan bahwa IKN adalah kota masa depan yang maju dan hijau, dengan 70 persennya merupakan
+kawasan hijau. Kebijakan ini sesuai dengan keinginan Presiden Jokowi untuk menjadikan IKN
+sebagai forest city atau kota hutan."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Tentu saja indah kan? Tapi justru kita menimbulkan pertanyaan kritis, karena status 256 ribu
+hektare itu adalah hutan. Kalau dikatakan 70 persennya kawasan hijau, berarti melakukan deforestasi
+sebesar 30 persen. Berarti 30 persen itu adalah sedang dilaksanakan deforestasi untuk pembangunan
+infrastruktur dan sebagainya,” kata Dwiko dalam diskusi terkait IKN di Fisipol, UGM, Selasa (23/5).
+Penilaian Dwiko didasarkan pada alasan bahwa kawasan IKN berstatus sebagai hutan. Jika nantinya
+hanya 70 persen area yang hijau setelah IKN jadi, maka bermakna 30 persen telah berubah fungsi."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/img_analisis3"
+                    android:layout_marginVertical="5dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Pembangunan jembatan Pulau Balang Besar yang akan terhubung dengan Ibukota Negara Nusantara
+(IKN) di Sepaku, Kalimantan Timur, 7 Maret 2023. (Foto: REUTERS/Willy Kurniawan)."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Pilihan kebijakan ini akan menjawab pertanyaan apakah IKN merusak paru-paru dunia atau
+tidak. “Kaidahnya adalah setiap perubahan landscape hutan secara kualitas maupun secara kuantitas,
+pasti akan mengubah kualitas dari paru-paru itu. Pasti akan merusak paru-paru itu,” ujarnya."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Rehabilitasi-Reboisasi Tugas Berat"
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Ada dua bentuk perubahan hutan, yaitu deforestasi dan degradasi. Deforestasi adalah perubahan
+hutan menjadi nonhutan, seperti menjadi sebuah kota. Degradasi adalah penurunan kualitas hutan
+menjadi hutan tanaman, atau kebun atau mungkin menjadi lahan pertanian. Namun di sisi lain, Dwiko
+juga membaca laporan Bappenas yang menyatakan bahwa kondisi hutan di kawasan IKN memang tidak
+baik-baik saja. Dari 256 ribu hektare yang akan menjadi ibu kota, hanya 43 persen masih layak disebut
+hutan. Karena itu, jika targetnya adalah 70 persen kawasan hutan, pemerintah memiliki beban hampir 30
+persen lahan harus dihutankan Kembali."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          “Pertanyaannya, mampukah kita mentransformasi hutan produksi tanaman eukaliptus yang
+kualitasnya lebih rendah dari primer itu, menjadi hutan tropis yang betul-betul mampu menyuplai
+oksigen, menyupai biodiversitas, mempertahankan kelestarian hutan dan seterusnya,” tanya Dwiko.
+Kementerian Lingkungan Hidup dan Kehutanan (KLHK) sejauh ini hanya memiliki kemampuan
+melakukan rehabilitasi dan reboisasi seluas 900 hektare per tahun. Itupun dengan tingkat keberhasilan
+yang rendah. “Setelah dihitung, membutuhkan waktu 88 tahun untuk bisa mentransformasi kawasan
+hutan IKN itu menjadi hutan kembali,” tegas Dwiko."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Koordinator Gusdurian Peduli, A’ak Abdullah Al Kudus, turut mengkritisi problem lingkungan
+yang muncul dari pembangunan IKN ini. Dia mengakui Jakarta membutuhkan dana besar untuk
+mengatasi masalah lingkungan. “Apakah kemudian IKN yang akan kita bangun ini, tidak punya dampak
+yang lebih besar dibanding misalkan tetap di Jakarta atau di tempat lain,” kata Abdullah.
+Pertimbangan yang harus diperhatikan terkait posisi Kalimantan sebagai salah satu pemilik hutan tropis
+besar di dunia. Kawasan ini juga memiliki keanekaragaman flora dan fauna, serta masih lekat dengan
+kehidupan masyarakat adat. Semua itu menjadi harga yang harus dibayar dalam proses pindahnya ibu
+kota. Abdullah juga setuju bahkan menghutankan kembali kawasan yang sudah rusak bukan tugas
+mudah."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          “Kami di Gunung Lemongan (Jawa Timur-red), kalau tanam pohon seribu, paling yang hidup
+30 atau 100 pohon, itu sudah hebat. Dengan sekian juta hektare itu apakah mungkin sampai 2045 ini menjadi hutan,” tandasya."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Dia juga mempertanyakan, ke mana perginya para pengusaha yang memiliki konsesi di wilayah IKN. Jika mereka kehilangan lahan di Kalimantan, tentu akan ada konsesi baru yang juga bermakna rusaknya
+hutan di kawasan lain di Indonesia untuk mereka. Abdullah juga khawatir suku Dayak sebagai masyarakat adat setempat, akan tersingkirkan oleh perubahan yang terjadi."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/fontGray"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Pemerintah Tegaskan Komitmen"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Muhammad Nurdin dari Tim Gubernur untuk Pengawalan Percepatan Pembangunan Kalimantan
+Timur menyebut seluruh dokumen hukum pembangunan IKN telah selesai dibuat. Di dalamnya, termuat
+seluruh aspek pembangunan, termasuk komitmennya pada lingkungan. Dia mengajak seluruh pihak
+untuk memantau implementasinya di lapangan. Terkait kondisi di kawasan yang akan menjadi IKN,
+diakui Nurdin bahwa meski berstatus hutan, tetapi faktanya jauh dari status itu. “Seratus tiga puluh enam
+ribu hektare dari 256 ribu hektare seluruhnya itu pemukiman, termasuk di Pantai Samboja. Kita lihat dari
+jalan lama Bukit Soeharto, kawasan lindung itu ke pantai, itu kondisinya alang-alang hampir 80 persen.
+Kecuali di Bukit Soeharto, masih ada hutan termasuk yang mangrove sedikit di Teluk Balikpapan,” papar
+Nurdin. Nurdin, mewakili gubernur Kalimantan Timur, meyakini bahwa komitmen pembangunan
+ekonomi berkelanjutan dari pemerintah akan dipenuhi. Apalagi, Indonesia terikat dan sudah meratifikasi
+sejumlah kesepakatan internasional dalam isu lingkungan."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          “Jadi, menurut saya, ancaman itu adalah tantangan buat kita semua, untuk generasi yang akan
+datang, mengawal dokumen-dokumen perencanazn, undang-undang, peraturan pemerintah, semua
+dokumen resmi pemerintah yang ada. Kita kawal 24 jam, kalau ada yang menyimpang dari komiten,
+harus kita perbaiki,” tegasnya. Dalam diskusi terpisah yang diselenggarakan Otoritas IKN, Dr Myrna
+Asnawati Safitri, selaku Deputi bidang Lingkungan Hidup dan Sumber Daya Alam Otorita IKN
+mengakui kondisi kawasan IKN yang telah rusak."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Ketika kita berbicara tentang lingkungan dan ekosistem di wilayah IKN, kondisinya harus
+diakui adalah kondisi yang tidak seluruhnya baik-baik saja,” kata Myrna, Senin (22/5). Dia melanjutkan,
+“Kita berbicara pada wilayah, yang sebagian besar karena sejarah dari kebijakan pembangunan di masa
+yang lampau, yang sifatnya ekstraktif, akhirnya menyisakan wilayah-wilayah misalnya adanya kegiatan-kegiatan pertambangan, itu banyak sekali dan kita semua tahu. Konversi kawasan hutan menjadi bentuk
+pemanfaatan lain sudah terjadi sejak lama. Namun, Myrna menegaskan bahwa semua kondisi ini harus
+dilihat sebagai sebuah tantangan."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Myrna meyakinkan semua pihak bahwa proses pembangunan IKN sangat memperhatikan
+lingkungan. “Lingkungan, masyarakat, dan tata kelola pemerintahan yang baik adalah hal yang tidak bisa
+ditawar dalam persiapan, pemindahan dan pembangunan serta penyelenggaraan pemerintahan khusus
+Ibu Kota Nusantara nantinya,” ujarnya."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          IKN didesain memiliki ruang hijau terlindungi jauh lebih besar dari rata-rata kota lain yang hanya 30-40
+persen. Sejak proses pembangunan saat ini, isu lingkungan juga menjadi perhatian penting. Salah
+satunya, Kepala Otorita IKN telah mengeluarkan surat edaran untuk pengendalian pencemaran dan
+kerusakan lingkungan hidup. Surat itu ditujukan kepada penanggung jawab proyek-proyek konstruksi.
+Otorita IKN juga mengeluarkan petunjuk teknis bagi pengelola proyek konstruksi untuk menjaga
+perilaku dan memperlihatkan dampak aktivitas mereka terhadap satwa setempat."
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="https://www.voaindonesia.com/a/ibu-kota-nusantara-merusak-hutan-atau-memperbaiki-lingkungan-/7106732.html"
+                android:textColor="#013D12"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Berdasarkan artikel:"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="1."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Bagaimana pendapat kelompok Anda berkaitan dengan pembangunan yang dilakukan sesuai dengan artikel tersebut?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="2."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Saran apakah yang dapat diberikan kepada pemerintah agar ketakutan dan kekwatiran
+pada artikel tersebut dapat dihindari atau diminimalisir?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="3."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Contoh adaptasi dan mitigasi apa yang perlu disiapkan pemerintah Indonesia untuk mengatasi permasalahan tersebut?"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="4."
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Buatlah prediksi dari kelompok kalian terkait tantangan ke depan (2045) berkaitan dengan pembangunan yang sesuai dengan artikel tersebut!"
+                    android:textColor="#0F0F0F"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

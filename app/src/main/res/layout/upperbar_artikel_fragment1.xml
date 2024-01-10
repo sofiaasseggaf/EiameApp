@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".upperbar.artikel.FragmentArtikel1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textAlignment="center"
+                android:layout_marginHorizontal="20dp"
+                android:text="Upaya Adaptasi dan Mitigasi Terhadap Perubahan Iklim, Kantor P3E Suma
+Terapkan Konsep Green Building dan Sistem Manajemen Eco Office berbasis ISO 14001:\n2015"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          P3E Suma, KLHK-Eco Office merupakan icon kantor berbudaya lingkungan adalah harga mati bagi
+antor P3E Suma diimplementasikan seluruh pegawainya. Sudah barang tentu semua makhluk hidup di
+muka bumi ini merindukan lingkungan hidup bersih, sehat, rindang nyaman dan bebas polusi. Namun,
+kenyataan tersebut tidak akan terwujud tanpa ada komitmen dari manusia sebagai aktor utama penyebab
+iklim di bumi ini berubah. Faktanya setiap musim kemarau, berbagai daerah di Indonesia relatif
+mengalami kekeringan. Sebaliknya pada musim penghujan, banjir selalu mampir menggenangi berbagai
+area di pelosok negeri. Perubahan iklim merupakan sebuah bencana besar dan malapetaka bagi umat
+manusia, hal ini dikarenakan dampak perubahan iklim bagi kehidupan manusia sangat merugikan."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Dampak perubahan iklim lainnya adalah tingkat pencemaran udara yang tinggi sehingga membuat
+kualitas udara semakin tidak sehat. Pertumbuhan penduduk begitu pesat, otomatis permintaan akan
+energi semakin meningkat. Sedangkan kita tahu bahwa energi dihasilkan dari bahan bakar fosil yang
+notabene mengelurkan emisi gas berupa kabondioksida. Dampak perubahan iklim semakin kasat mata
+dirasakan manusia. Upaya pengelolaan lingkugan harus semakin ditingkatkan agar kita terhindar dari
+dampak yang lebih buruk."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Untuk itu diperlukan upaya adaptasi dan mitigasi mengantisipasi dampak perubahan iklim tersebut.
+Kegiatan beradaptasi dapat dilakukan salah satunya dengan menanam pohon untuk menghindari longsor
+dan polusi udara serta pembuatan sumur resapan. Selain itu, upaya mitigasi atau pengurangan efek gas
+rumah kaca dapat dilakukan dengan hemat energi, tidak konsumtif, mengelola sampah dan efisiensi
+penggunaan transportasi."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Kekhawatiran akan perubahan iklim yang ekstrem seperti uraian diatas. Pemerintah dalam hal ini P3E
+Suma telahberkomitmen menjadi garda terdepan memperlambat percepatan perubahan iklim global,
+melalui konsep kantor berbudaya lingkungan atau Eco Office. Tentu saja konsep ini tidak akan terwujud
+tanpa adanya komitmen dari seluruh pegawai. Eco Office merupakan konsep dengan melibatkan setiap
+personil kantor untuk berperan aktif dalam kegiatan kantor yang modern dan bersahabat dengan
+lingkungan. Wujud dari eco office adalah kantor yang bersih, aman dan nyaman, efisien dalam
+memanfaatkan sumberdaya dan melakukan pengelolaan limbah (IPAL) dengan baik, berpihak pada
+upaya pelestarian lingkungan secara berkelanjutan."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Tanpa disadari banyak hal-hal kecil kita lakukan dapat mencegah atau memperlambat terjadinya
+perubahan iklim. Salah satunya dengan melakukan aktivitas hemat energi di kantor. Eco-office, kita
+sering dengar istilah ini, yang jelas bukan hadiah dari negara asing. Konsep ini setidaknya turut
+meminimalisir konsumsi penggunaan energi berlebih, menciptakan lingkungan kerja yang kondusif,
+selanjutnya diharapkan dapat memberikan kontribusi positif kepada perbaikan lingkungan.
+Sebagai komitmen untuk menjadi kantor yang berbudaya lingkungan dengan penerapan green building
+dan sistem manajemen Eco Office berbasis ISO 14001: 2015 Kantor P3E Suma akan selalu berupaya
+mencegah pencemaran dan pelestarian lingkungan. Upaya tersebut meliputi:"
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="1."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Tepat guna lahan (appropriate site development);"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="2."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Efisiensi dan konservasi energi (energy efficiency and conservation);"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="3."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Konservasi air (water conservation);"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="4."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Sumber dan siklus material (material resources and cycle);"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="5."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Kualitas udara dan kenyamanan udara dalam ruang (indoor air health and confort);"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="6."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Manajemen lingkungan bangunan (building environment management);"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Penerapan konsep green building dan sistem manajemen Eco Office berbasis ISO 14001: 2015
+terhadap Perubahan iklim tentu sangat erat kaitannya. Dengan hemat energi, memperbanyak
+berbagai jenis pohon di halaman kantor biasa disebut Mini Arboretum, setidaknya langkah
+antisipatif telah dilakukan sebagai pelindung dari terik matahari, penangkal polusi, dikarenakan
+aktivitas manusia begitu merugikan nafas kehidupan. Oleh karena itu konsep green building dan
+sistem manajemen Eco Office berbasis ISO 14001: 2015 merupakan program strategis P3E Suma
+untuk meningkatkan kemampuan beradaptasi terhadap perubahan iklim yang begitu ekstrem, sebagai
+bagian dari strategi jangka panjang untuk bertahan terhadap terjadinya perubahan iklim.
+Keterlambatan dalam melakukan upaya-upaya tersebut akan mempercepat proses tingkat kerentanan
+sistem alam dan kehidupan manusia terhadap perubahan iklim. Akhirnya akan semakin besar biaya
+yang harus dikeluarkan nantinya. Intinya manusia harus bersahabat dengan alam."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="http://p3esuma.menlhk.go.id/versi3/index.php/news/87-berita/302-upaya-adaptasi-dan-mitigasi-terhadap-perubahan-iklim-kantor-p3e-suma-terapkan-konsep-green-building-dan-sistem-manajemen-eco-office-berbasis-iso-14001-2015"
+                android:textColor="#013D12"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

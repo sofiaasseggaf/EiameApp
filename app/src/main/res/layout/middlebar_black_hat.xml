@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".middlebar.BlackHat">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/bg_top" >
+            <RelativeLayout
+                android:id="@+id/btnBack"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/rect"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_back"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_hat_black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginLeft="10dp"
+                android:text="JUDGEMENT"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/frameLayout"
+                app:layout_constraintStart_toStartOf="parent"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="          Topi Hitam memberikan pandangan mengenai sisi buruk dari sebuah keputusan. Pahami secara hati-hati.
+Mengapa keputusan yang diambil bisa gagal? Topi hitam ini sangat penting karena memberikan
+kesempatan bagi Anda untuk menghilangkan hal-hal negatif, mengganti keputusan yang salah, dan
+merencanakan perencanaan kembali yang lebih baik. hitam berarti Anda membuat perencanaan yang
+lebih kuat. Topi ini juga memungkinkan Anda untuk menemukan kesalahan dan risiko-risiko sebelum
+memulai tindakan selanjutnya."
+            android:textColor="@color/fontGray"
+            android:justificationMode="inter_word"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="          Topi hitam adalah tokoh utama yang memegang peranan penting dalam keputusan ini. Beberapa orang
+sukses terbiasa untuk berpikir positif sehingga tidak melihat masalah sejak awal. Hal ini akan
+menyebabkan kurangnya persiapan dalam menghadapi masalah yang mungkin saja terjadi. Faktanya
+melihat sisi negatif dapat membantu merancang perencanaan lebih baik guna menangkal hal-hal negatif
+ke depannya serta memperbaiki kekurangan dan risiko fatal sebelum mengambil langkah maju."
+            android:textColor="@color/fontGray"
+            android:justificationMode="inter_word"
+            android:textSize="12sp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Kata Kunci Topi Hitam:"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Fokus Terhadap Permasalahan"
+            android:textColor="@color/fontGray"
+            android:justificationMode="inter_word"
+            android:textStyle="italic"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:layout_marginLeft="10sp"
+                android:background="@drawable/circle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Memiliki kemampuan mengidentifikasi masalah yang ia rasa akan muncul"
+                android:textColor="@color/fontGray"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10sp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="10sp"
+                android:layout_height="10sp"
+                android:layout_marginLeft="10sp"
+                android:background="@drawable/circle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Berpegang pada kesulitan yang mungkin akan dihadapi ke depan"
+                android:textColor="@color/fontGray"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10sp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

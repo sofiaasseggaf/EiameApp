@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".upperbar.artikel.FragmentArtikel2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textAlignment="center"
+                android:layout_marginHorizontal="30dp"
+                android:text="Mitigasi Dan Adaptasi Untuk Atasi Dampak Perubahan Iklim"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Saat ini bumi sedang menghadapi perubahan iklim, yang dampaknya harus diwaspadai. Untuk
+mengatasi perubahan iklim tersebut, yang harus kita lakukan adalah mitigasi dan adaptasi. Hal tersebut
+dikatakan oleh Menteri Pekerjaan Umum (PU) Djoko Kirmanto dalam acara Team Building
+PusatKomunikasi Publik (Puskompu) Sekretariat Jenderal (Setjen) Kementerian PU yang dihadiri oleh
+para pejabat Kementerian PU dan para wartawan di Bogor, hari ini (27/22)."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Djoko menjelaskan, yang dimaksud dengan mitigasi adalah bagaimana kita semaksimal mungkin
+mengurangi emisi gas rumah kaca, dan emisi yang telanjur keluar jangan sampai merusak ozon lebih
+parah, dengan salah satunya adalah menanam banyak pohon. Selain itu adaptasi, karena terjadi
+kerusakan dan memberikan suatu dampak, semua hal yang kita lakukan, kita adaptasi. Contohnya karena
+seringnya hujan lebat yang jatuh pada satu periode dan debitnya besar, sehingga selokan-selokan dan
+drainase yang dulu cukup saat ini tidak cukup, maka desain-desain harus kita update dan sesuaikan
+dengan permintaan-permintaan dari akibat perubahan iklim tersebut, paparnya."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Lebih lanjut Menteri PU mengatakan bahwa yang menjadi permasalahan saat ini adalah pangan,
+energi dan air, dan khusus yang ditangani oleh Kementerian PU adalah permasalahan pangan dan air.
+Untuk itu, penting membangun embung/situ/waduk untuk menahan air yang dapat digunakan untuk
+irigasi, juga dalam rangka untuk air minum dan air baku serta konservasi,tambah Djoko."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Seperti kita ketahui, Presiden Jokowi menargetkan pada 2024 Indonesia sudah surplus beras 10
+juta ton, hal tersebut dikarenakan saat ini seluruh dunia sedang gelisah untuk memenuhi makanan
+penduduknya. Yang menjadi vocal point, mempertanggungjawabkan 10 juta ton itu, adalah Kementerian
+Pertanian. Tapi, tidak ada padi yang hidup tanpa air, sehingga pada akhirnya ketersediaan air untuk
+irigasi ini harus kita sediakan. Oleh sebab itu, kita akan semakin besar membangun jaringan irigasi dan
+waduk-waduk untuk keperluan tersebut, tambahnya. Saat ini, sudah dilakukan koordinasi dengan
+Kementerian Pertanian mengenai berapa jaringan irigasi yang harus dibangun dan direhabilitasi, serta
+sudah dibuat program untuk 5 tahun."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

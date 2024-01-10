@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".upperbar.adaptasimitigasi.FragmentAdaptasiMitigasi1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="LAUT DAN ATMOSFER"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:background="@drawable/img_adaptasi_m1_1"
+                    android:layout_marginVertical="5dp"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Interaksi laut dan atmosfer berperan penting sebagai penggerak iklim global. Lautan dan atmosfer
+sangat penting untuk menopang kehidupan di Bumi. Reservoir untuk pertukaran bahan kimia dan energi, lautan
+dan atmosfer sama-sama penting dalam menentukan iklim sekarang dan di masa depan.
+Lima lapisan atmosfer yang berbeda telah diidentifikasi, dibatasi oleh pauses di mana perubahan terbesar
+dalam karakteristik termal, komposisi kimia, pergerakan, dan kepadatan terjadi. Sebagian besar atmosfer
+terkandung dalam selubung gas yang relatif dangkal, partikel padat mikroskopis, dan partikel cair yang disebut
+aerosol, yang mengelilingi bola bumi, yang dikenal sebagai troposfer. Atmosfer sebagian besar terdiri dari
+nitrogen dan oksigen, dengan uap air, argon, karbon dioksida, dan banyak gas lain juga hadir."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Pemanasan yang relatif intens oleh matahari di daerah dekat khatulistiwa dibandingkan dengan garis
+lintang yang lebih tinggi menyediakan energi untuk pergerakan udara yang masif. Saat udara dihangatkan oleh
+daratan dan lautan di dekat ekuator, udara naik, mencapai puncak troposfer dan menyebar ke utara dan
+selatan. Akhirnya udara tersebut mendingin dan tenggelam kembali ke tanah. Pola sirkulasi global yang
+terdefinisi dengan baik terdiri dari serangkaian sel, yang terbesar membentang dari ekuator mencapai antara
+lintang 30 dan 40 derajat utara dan selatan, dinamai sel Hadley. Sel-sel tambahan membantu dalam mentransfer
+sejumlah besar panas dari daerah tropis ke kutub. Iklim bumi juga bergantung pada pertukaran energi antara
+laut, atmosfer, tanah, dan biosfer. Lautan memainkan peran penting dalam mentransfer panas ke seluruh dunia.
+Salah satu contohnya yaitu pada siklus thermohaline yang mendistribusikan energi dari suatu belahan bumi ke
+belahan bumi lain. Siklus ini yang membuat energi di bumi menjadi seimbang. Fenomena penggabungan
+atmosfer laut penting lainnya adalah El Niño-Southern Oscillation."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="https://adaptasiklhk.id/adaptasi/getContent/1"
+                android:textColor="#013D12"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="TREN GLOBAL"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:background="@drawable/img_adaptasi_m1_2"
+                    android:layout_marginVertical="5dp"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Selama beberapa dekade, ahli paleoklimatologi telah meneliti bagaimana suhu bumi berubah
+selama berabad-abad sebelum tahun 1850. Suhu bumi telah berfluktuasi secara alami selama ratusan
+juta tahun. Perubahan masa lalu ini dapat membantu kita memahami hubungan antara suhu, gas
+rumah kaca, dan pendorong iklim lainnya saat ini. Beberapa perubahan suhu dan komposisi atmosfer
+yang paling jelas tercatat di inti es selama hampir 1 juta tahun. Bumi telah mengalami siklus zaman es
+yang dipisahkan oleh periode interglasial hangat kira-kira setiap 100.000 tahun. Ini terutama didorong
+oleh goyangan reguler di orbit Bumi, yang memengaruhi jumlah radiasi matahari yang mencapai
+Bumi. Selama permulaan periode interglasial, pemanasan membutuhkan waktu sekitar 5000 tahun
+untuk menyelesaikannya."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Pemanasan yang signifikan dimulai di Antartika dan beberapa ratus tahun kemudian pemanasan tersebut menyebabkan peningkatan karbondioksida (CO2), terutama melalui proses
+lautan. Deglasiasi belahan bumi utara mengikuti peningkatan CO2. Oleh karena itu, peningkatan CO2 berkontribusi pada penguatan (umpan balik positif) di sebagian besar pemanasan. Lapisan es juga
+menimbulkan umpan balik. Perubahan suhu yang diamati dan laju perubahan selama periode glasial-interglasial tidak dapat disimulasikan tanpa perubahan CO2 atau luas es yang diamati."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Meskipun setiap catatan suhu proxy berbeda, semuanya menunjukkan pola variabilitas suhu yang serupa selama 500 hingga 2000 tahun terakhir. Istilah Periode Hangat Abad Pertengahan dan
+Zaman Es Kecil menggambarkan dua zaman iklim masa lalu di Eropa dan wilayah sekitarnya. Zaman Es Kecil adalah periode pendinginan yang terjadi setelah Periode Hangat Abad Pertengahan. Jadi,
+selama ribuan tahun yang lalu telah terjadi periode yang lama dengan kondisi yang agak lebih hangat dan lebih dingin. Yang paling mencolok adalah fakta bahwa setiap catatan proxy mengungkapkan
+peningkatan tajam dalam laju atau tingkat spasial pemanasan sejak pertengahan abad ke-19 hingga awal abad ke-20. Catatan menunjukkan suhu beberapa dekade terakhir adalah yang terhangat dalam
+seluruh catatan."
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="https://adaptasiklhk.id/adaptasi/getContent/2"
+                android:textColor="#013D12"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="TREN INDONESIA"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:background="@drawable/img_adaptasi_m1_3"
+                    android:layout_marginVertical="5dp"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Di Indonesia, berbagai studi menunjukkan penurunan PDB diperkirakan sampai 3,5% pada tahun
+2100. Berdasarkan hasil analisis, potensi dampak perubahan iklim terhadap bidang pangan, air, energi,
+dan kesehatan dapat mengurangi PDB dari 0,66% sampai dengan 3,45% pada tahun 2030. Potensi
+dampak tersebut sangat perlu mendapatkan perhatian dengan mempertimbangkan pertumbuhan
+ekonomi nasional antara 5,4 – 6,0% per tahun yang bertujuan untuk mengurangi tingkat kemiskinan,
+pengangguran, dan ketimpangan, serta peningkatan kesejahteraan masyarakat. Dampak negatif
+perubahan iklim dapat mengganggu target capaian pertumbuhan ekonomi yang pada akhirnya
+menghambat target capaian pembangunan."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="https://adaptasiklhk.id/adaptasi/getContent/3"
+                android:textColor="#013D12"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="DEFINISI PROYEKSI"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:background="@drawable/img_adaptasi_m1_4"
+                    android:layout_marginVertical="5dp"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Proyeksi adalah gambar suatu benda yang dibuat rata (mendatar) atau berupa garis pada
+bidang datar. Proyeksi perubahan iklim memberikan respons iklim terhadap serangkaian skenario gas
+rumah kaca, aerosol, dan penggunaan lahan yang konsisten dengan asumsi sosio-ekonomi tentang
+bagaimana masa depan dapat berkembang. Skenario ini dikenal sebagai Representative
+Concentration Pathways (RCPs). Dalam Laporan Penilaian Kelima, IPCC menyimpulkan bahwa suhu
+udara permukaan rata-rata global untuk 2081–2100 dibandingkan dengan 1986–2005 kemungkinan
+besar berada dalam kisaran berikut: 0,3 hingga 1,7 ° C lebih hangat untuk RCP2.6 (menunjukkan emisi
+rendah); 1.1 hingga 2.6 ° C dan 1.4 hingga 3.1 ° C lebih hangat untuk masing-masing RCP4.5 dan
+RCP6.0 (mewakili emisi menengah); dan 2,6 hingga 4,8 ° C lebih hangat untuk RCP8.5 (menunjukkan
+emisi tinggi). Proyeksi kuantitatif perubahan iklim di masa depan disajikan sebagai rentang. Hal ini
+memungkinkan adanya perbedaan dalam bagaimana iklim masa depan dapat berkembang karena tiga
+faktor - gas rumah kaca dan emisi aerosol, respons iklim, dan variabilitas alam."
+                    android:textColor="@color/fontGray"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="https://adaptasiklhk.id/adaptasi/getContent/4"
+                android:textColor="#013D12"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#F0F1F5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="DEFINISI KERENTANAN"
+                android:textColor="@color/fontGray"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_blank_green_radius_rect"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:background="@drawable/img_adaptasi_m1_5"
+                    android:layout_marginVertical="5dp"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="          Kerentanan merupakan kecenderungan suatu sistem untuk mengalami dampak negatif yang meliputi sensitivitas
+terhadap dampak negatif dan kurangnya kapasitas adaptasi untuk mengatasi dampak negatif. Dalam konteks
+perubahan iklim, kerentanan merupakan perkiraan besar dampak buruk yang timbul akibat keragaman dan
+perubahan iklim. Kerentanan menunjukkan besarnya selang toleransi (coping range) sistem terhadap perubahan
+iklim. Apabila perubahan iklim melewati selang toleransi dari sistem tersebut, maka sistem tersebut dikatakan
+sudah rentan (vulnerable) terhadap perubahan iklim. Semakin sempit selang toleransi, maka semakin rentan
+sistem tersebut terhadap dampak perubahan iklim. Dalam konteks kebencanaan, kerentanan adalah
+sekumpulan faktor-faktor berkontribusi (kependudukan, kesejahteraan keluarga dan akses sumber daya) yang
+berpengaruh terhadap peningkatan risiko dampak bencana. Penyusunan kajian kerentanan dan risiko iklim
+dilakukan untuk memetakan tingkat kerentanan dan risiko iklim historis dan masa depan pada suatu wilayah
+dan/atau sektor spesifik (target cakupan), sebagai dasar penyusunan pilihan adaptasi yang perlu dilakukan untuk
+mengurangi potensi dampak negatif perubahan iklim dan bila dimungkinkan untuk memanfaatkan peluang
+dampak perubahan iklim pada suatu wilayah dan/atau sektor spesifik. Tahapan penyusunan kajian kerentanan
+dan risiko iklim sebagaimana, dilakukan antara lain melalui :"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/fontGray"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="a."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="analisis kondisi iklim dan kejadian iklim ekstrim historis di wilayah kajian"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="b."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="penyusunan skenario iklim periode masa depan"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="c."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="pengkajian dampak kejadian iklim historis yang mengancam fungsi ekologis"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="d."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="analisis historis dan proyeksi kerentanan dan risiko wilayah dan/atau sektor spesifik, atau"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="e."
+                        android:textColor="#0F0F0F"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="analisis kapasitas kelembagaan dalam mengendalikan dampak perubahan iklim"
+                        android:textColor="#0F0F0F"
+                        android:justificationMode="inter_word"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="https://adaptasiklhk.id/adaptasi/getContent/5"
+                android:textColor="#013D12"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
