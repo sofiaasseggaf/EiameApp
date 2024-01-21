@@ -117,10 +117,10 @@ ke depannya serta memperbaiki kekurangan dan risiko fatal sebelum mengambil lang
             android:gravity="center_vertical"
             android:orientation="horizontal">
             <ImageView
-                android:layout_width="10sp"
-                android:layout_height="10sp"
+                android:layout_width="20dp"
+                android:layout_height="20sp"
                 android:layout_marginLeft="10sp"
-                android:background="@drawable/circle"/>
+                android:background="@drawable/ic_hat_black"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -140,10 +140,10 @@ ke depannya serta memperbaiki kekurangan dan risiko fatal sebelum mengambil lang
             android:gravity="center_vertical"
             android:orientation="horizontal">
             <ImageView
-                android:layout_width="10sp"
-                android:layout_height="10sp"
+                android:layout_width="20dp"
+                android:layout_height="20sp"
                 android:layout_marginLeft="10sp"
-                android:background="@drawable/circle"/>
+                android:background="@drawable/ic_hat_black"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
