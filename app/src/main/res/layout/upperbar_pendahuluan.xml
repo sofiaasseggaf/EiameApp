@@ -90,7 +90,8 @@ iklim. Harapannya EI-AME ini dapat digunakan dan dimanfaatkan oleh mahasiswa sec
 menjadi media yang mampu meningkatkan kecakapan komunikasi mahasiswa"
                     android:textColor="#0F0F0F"
                     android:textSize="12sp"
-                    android:paddingHorizontal="20dp" />
+                    android:paddingHorizontal="20dp"
+                    android:justificationMode="inter_word"/>
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"

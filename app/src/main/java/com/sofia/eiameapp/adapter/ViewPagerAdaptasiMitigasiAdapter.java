@@ -12,6 +12,7 @@ import com.sofia.eiameapp.upperbar.adaptasimitigasi.FragmentAdaptasiMitigasi5;
 import com.sofia.eiameapp.upperbar.adaptasimitigasi.FragmentAdaptasiMitigasi6;
 import com.sofia.eiameapp.upperbar.adaptasimitigasi.FragmentAdaptasiMitigasi7;
 import com.sofia.eiameapp.upperbar.adaptasimitigasi.FragmentAdaptasiMitigasi8;
+import com.sofia.eiameapp.upperbar.adaptasimitigasi.FragmentAdaptasiMitigasi9;
 import com.sofia.eiameapp.upperbar.kasusanalisis.FragmentKasus1;
 import com.sofia.eiameapp.upperbar.kasusanalisis.FragmentKasus2;
 import com.sofia.eiameapp.upperbar.kasusanalisis.FragmentKasus3;
@@ -45,6 +46,8 @@ public class ViewPagerAdaptasiMitigasiAdapter extends FragmentPagerAdapter {
                 return new FragmentAdaptasiMitigasi7();
             case 7:
                 return new FragmentAdaptasiMitigasi8();
+            case 8:
+                return new FragmentAdaptasiMitigasi9();
             default:
                 return null;
         }
@@ -52,7 +55,7 @@ public class ViewPagerAdaptasiMitigasiAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 8; // Number of tabs
+        return 9; // Number of tabs
     }
 
     @Override
@@ -75,6 +78,8 @@ public class ViewPagerAdaptasiMitigasiAdapter extends FragmentPagerAdapter {
             title = "Materi 7";
         else if (position == 7)
             title = "Materi 8";
+        else if (position == 8)
+            title = "Materi 9";
         return title;
     }
 }

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import com.sofia.eiameapp.databinding.HomeBinding;
@@ -17,6 +18,8 @@ import com.sofia.eiameapp.upperbar.adaptasimitigasi.AdaptasiMitigasiActivity;
 import com.sofia.eiameapp.upperbar.artikel.ArtikelActivity;
 import com.sofia.eiameapp.upperbar.kasusanalisis.KasusAnalisisActivity;
 import com.sofia.eiameapp.upperbar.Pendahuluan;
+
+import java.net.URISyntaxException;
 
 public class Home extends AppCompatActivity {
 
@@ -87,5 +90,40 @@ public class Home extends AppCompatActivity {
             finish();
         });
 
+        binding.btnWebsite1.setOnClickListener(v->{
+            Uri uri = Uri.parse("https://www.menlhk.go.id");
+            Intent a = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(a);
+        });
+
+        binding.btnWebsite2.setOnClickListener(v->{
+            Uri uri = Uri.parse("https://www.worldwildlife.org");
+            Intent a = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(a);
+        });
+
+        binding.btnWebsite3.setOnClickListener(v->{
+            Uri uri = Uri.parse("https://sipsn.menlhk.go.id/sipsn/");
+            Intent a = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(a);
+        });
+
+        binding.btnWebsite4.setOnClickListener(v->{
+            Uri uri = Uri.parse("https://gis.bnpb.go.id/");
+            Intent a = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(a);
+        });
+
+        binding.btnWebsite5.setOnClickListener(v->{
+            Uri uri = Uri.parse("https://oceanservice.noaa.gov");
+            Intent a = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(a);
+        });
+
+        binding.btnWebsite6.setOnClickListener(v->{
+            Uri uri = Uri.parse("https://www.greenmountainenergy.com");
+            Intent a = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(a);
+        });
     }
 }
